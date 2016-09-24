@@ -1,0 +1,437 @@
+{
+    "meta": {
+        "network": "all",
+        "http_code": 200,
+        "requestid": "dea0c28a793d44afbf5daee69506b71c",
+        "query_type": "realtime",
+        "limit": 20,
+        "page": 0
+    },
+    "posts": [{
+        "network": "twitter",
+        "posted": "2016-09-24 05:23:21 +00000",
+        "text": "RT @iamKatrinaSon: Mga supporters ni Pangulong Duterte nagtipon tipon sa Quezon City Memorial Circle para ipakita ang kanilang suporta sa k…",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/apol_kiss/statuses/779551774516457472",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/747399690631536640/EM6pbXyh_normal.jpg",
+            "url": "http://twitter.com/apol_kiss",
+            "userId": "622737228",
+            "name": "apol"
+        },
+        "user_mentions": [{
+            "text": "iamKatrinaSon",
+            "url": "http://twitter.com/iamKatrinaSon"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:23:13 +00000",
+        "text": "Philippines: Playing dead to survive Duterte's drug war - Powerful report by @AJENews' @tedregencia  https://t.co/ZNun7odMVW",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/RT_Falconer/statuses/779551743453564929",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/445639182170353664/2dHJPMt9_normal.jpeg",
+            "url": "http://twitter.com/RT_Falconer",
+            "userId": "313350640",
+            "name": "Rebecca Falconer"
+        },
+        "urls": [{
+            "url": "http://aje.io/mmtv",
+            "short_url": "https://t.co/ZNun7odMVW"
+        }],
+        "user_mentions": [{
+            "text": "AJENews",
+            "url": "http://twitter.com/AJENews"
+        }, {
+            "text": "tedregencia",
+            "url": "http://twitter.com/tedregencia"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:23:11 +00000",
+        "text": "RT @cnnphilippines: Supporters of President Duterte gather at QC Circle to celebrate their last year's call for him to run | @anjocalimario…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/eaglegreek/statuses/779551732330143744",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/485985262120353793/MoaKtNVA_normal.jpeg",
+            "url": "http://twitter.com/eaglegreek",
+            "userId": "947301187",
+            "name": "erik gomez"
+        },
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }, {
+            "text": "anjocalimario",
+            "url": "http://twitter.com/anjocalimario"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:23:01 +00000",
+        "text": "RT @MrFrancisBaraan: When I see the PNP &amp; AFP on TV, I don't see policemen &amp; military ready to defend the country. All I see are thugs read…",
+        "lang": "en",
+        "sentiment": "positive",
+        "image": "",
+        "url": "http://twitter.com/jimrice_/statuses/779551693369253888",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/453143058230419457/7_fiexoK_normal.jpeg",
+            "url": "http://twitter.com/jimrice_",
+            "userId": "2302326066",
+            "name": "James A. Rice"
+        },
+        "user_mentions": [{
+            "text": "MrFrancisBaraan",
+            "url": "http://twitter.com/MrFrancisBaraan"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:22:54 +00000",
+        "text": "RT @cnnphilippines: Duterte to Commission on Human Rights: Do not complain about my mouth because my mouth is not the problem. It cannot br…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/AmbeMacristina/statuses/779551662096588804",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/621694087016493056/YGJvJM-d_normal.jpg",
+            "url": "http://twitter.com/AmbeMacristina",
+            "userId": "2826061820",
+            "name": "@macrisAmbe"
+        },
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:22:35 +00000",
+        "text": "RT @cnnphilippines: Supporters of President Duterte gather at QCMC to celebrate the first anniversary of 'people's call for change' https:/…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/eaglegreek/statuses/779551583788867584",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/485985262120353793/MoaKtNVA_normal.jpeg",
+            "url": "http://twitter.com/eaglegreek",
+            "userId": "947301187",
+            "name": "erik gomez"
+        },
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:22:17 +00000",
+        "text": "RT @xpeanutgalleryx: it is because of people who celebrate duterte that the ph is a fucked up country today",
+        "lang": "en",
+        "sentiment": "positive",
+        "image": "",
+        "url": "http://twitter.com/jessdelros6/statuses/779551508975222784",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/766221996661223428/SBqsFI90_normal.jpg",
+            "url": "http://twitter.com/jessdelros6",
+            "userId": "4513518802",
+            "name": "JESUS DELA ROSA"
+        },
+        "user_mentions": [{
+            "text": "xpeanutgalleryx",
+            "url": "http://twitter.com/xpeanutgalleryx"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:22:16 +00000",
+        "text": "RT @MrFrancisBaraan: And she's never going to fold in the face of adversity, especially not in the face of a bully. Even if the bully is a…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/DidibuR79/statuses/779551504084512769",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777868856261877760/WOu4FPYy_normal.jpg",
+            "url": "http://twitter.com/DidibuR79",
+            "userId": "373823252",
+            "name": "didibu"
+        },
+        "user_mentions": [{
+            "text": "MrFrancisBaraan",
+            "url": "http://twitter.com/MrFrancisBaraan"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:22:12 +00000",
+        "text": "RT @UNTVNewsRescue: Duterte, inimbitahan ang E.U. at U.N. upang imbestigahan ang umano’y vigilante killings sa Pilipinas | https://t.co/Cwy…",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/AmbeMacristina/statuses/779551488989237248",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/621694087016493056/YGJvJM-d_normal.jpg",
+            "url": "http://twitter.com/AmbeMacristina",
+            "userId": "2826061820",
+            "name": "@macrisAmbe"
+        },
+        "urls": [{
+            "url": "https://t.co/Cwy"
+        }],
+        "user_mentions": [{
+            "text": "UNTVNewsRescue",
+            "url": "http://twitter.com/UNTVNewsRescue"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:22:02 +00000",
+        "text": "RT @lizzytimbreza: Duterte: \"Won't pay attention to her, she's ugly.\" \nAlso Duterte: \"Can't pay attention to her, she's pretty.\"",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/yvette_tan/statuses/779551446735794176",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/671370221551140864/OsA43yX7_normal.jpg",
+            "url": "http://twitter.com/yvette_tan",
+            "userId": "13420202",
+            "name": "Yvette Tan"
+        },
+        "user_mentions": [{
+            "text": "lizzytimbreza",
+            "url": "http://twitter.com/lizzytimbreza"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:47 +00000",
+        "text": "RT @naynab15: Iba2\nDuterte: No extortion,no favors for kin,friends\nhttps://t.co/cs6tZGQJLe\n\nDuterte: My friends wil get 1st crack \nhttps://…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/Mershepherd/statuses/779551383036895232",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/752018316470792193/mIWc7i0Q_normal.jpg",
+            "url": "http://twitter.com/Mershepherd",
+            "userId": "557702260",
+            "name": "VIPsAnatomy"
+        },
+        "urls": [{
+            "url": "http://www.philstar.com/headlines/2016/05/13/1582740/duterte-no-extortion-no-favors-kin-friends",
+            "short_url": "https://t.co/cs6tZGQJLe"
+        }],
+        "user_mentions": [{
+            "text": "naynab15",
+            "url": "http://twitter.com/naynab15"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:40 +00000",
+        "text": "RT @PhelimKine: EU slams #Philippines Prez #Duterte #WarOnDrugs for \"exclusive focus on violent repression\" https://t.co/nMqqIu5Ofu Urgent…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/Iceman_891/statuses/779551354771546112",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/1133154827/DSC_0773_normal.JPG",
+            "url": "http://twitter.com/Iceman_891",
+            "userId": "196187959",
+            "name": "Ice"
+        },
+        "urls": [{
+            "url": "http://bit.ly/2dgoF3G",
+            "short_url": "https://t.co/nMqqIu5Ofu"
+        }],
+        "user_mentions": [{
+            "text": "PhelimKine",
+            "url": "http://twitter.com/PhelimKine"
+        }],
+        "tags": [{
+            "text": "#philippines",
+            "url": "http://twitter.com/search/%23philippines"
+        }, {
+            "text": "#duterte",
+            "url": "http://twitter.com/search/%23duterte"
+        }, {
+            "text": "#warondrugs",
+            "url": "http://twitter.com/search/%23warondrugs"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:33 +00000",
+        "text": "RT @PhilippineStar: President Duterte to Standard &amp; Poor's, foreign investors: \"Wala akong pakialam sa inyo (I don’t care about you).\" | @e…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/PHINewsOS/statuses/779551321879740416",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/685801737517584384/UebUrwEV_normal.jpg",
+            "url": "http://twitter.com/PHINewsOS",
+            "userId": "4733276522",
+            "name": "PHI Outside Source"
+        },
+        "user_mentions": [{
+            "text": "PhilippineStar",
+            "url": "http://twitter.com/PhilippineStar"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:30 +00000",
+        "text": "RT @cesdrilon: A survivor's tale in the campaign vs drugs: https://t.co/p8l2vdWvWP",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/pnoyaus/statuses/779551311477952512",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/2248209734/image_normal.jpg",
+            "url": "http://twitter.com/pnoyaus",
+            "userId": "220495333",
+            "name": "Tanghod Pinoy"
+        },
+        "urls": [{
+            "url": "http://www.aljazeera.com/news/2016/09/philippines-playing-dead-survive-duterte-drug-war-160922173054835.html",
+            "short_url": "https://t.co/p8l2vdWvWP"
+        }],
+        "user_mentions": [{
+            "text": "cesdrilon",
+            "url": "http://twitter.com/cesdrilon"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:30 +00000",
+        "text": "RT @PhilippineStar: Duterte: They make an issue of my mouth. They always complain about my mouth. I do not care if they do not invest here.…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/PHINewsOS/statuses/779551311075258368",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/685801737517584384/UebUrwEV_normal.jpg",
+            "url": "http://twitter.com/PHINewsOS",
+            "userId": "4733276522",
+            "name": "PHI Outside Source"
+        },
+        "user_mentions": [{
+            "text": "PhilippineStar",
+            "url": "http://twitter.com/PhilippineStar"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:24 +00000",
+        "text": "RT @betseykilayko: Looking at this 👇 picture is frightening 😨 A picture does indeed paint a thousands words. NO TO #EJK\nhttps://t.co/naroaG…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/pnoyaus/statuses/779551284739268608",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/2248209734/image_normal.jpg",
+            "url": "http://twitter.com/pnoyaus",
+            "userId": "220495333",
+            "name": "Tanghod Pinoy"
+        },
+        "urls": [{
+            "url": "https://t.co/naroaG"
+        }],
+        "user_mentions": [{
+            "text": "betseykilayko",
+            "url": "http://twitter.com/betseykilayko"
+        }],
+        "tags": [{
+            "text": "#ejk",
+            "url": "http://twitter.com/search/%23ejk"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:14 +00000",
+        "text": "RT @raissawriter: My site seems to be under attack after I posted abt Pres. Duterte and Matobato's hand tattoo. So pls be patient if you do…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/bikersbrew/statuses/779551245652463616",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/575474266931494914/yxPs0kDM_normal.jpeg",
+            "url": "http://twitter.com/bikersbrew",
+            "userId": "816612307",
+            "name": "J. Carlos Ramirez"
+        },
+        "user_mentions": [{
+            "text": "raissawriter",
+            "url": "http://twitter.com/raissawriter"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:06 +00000",
+        "text": "RT @raissawriter: Talk to the hand: Do President Duterte and the self-confessed assassin Edgar Matobato sport… https://t.co/9Bea6dgYCG",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/wenggonzales/statuses/779551209866665984",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/755274264358432769/vadRUFEk_normal.png",
+            "url": "http://twitter.com/wenggonzales",
+            "userId": "43826028",
+            "name": "Weng"
+        },
+        "urls": [{
+            "url": "http://goo.gl/fb/EVzbkK",
+            "short_url": "https://t.co/9Bea6dgYCG"
+        }],
+        "user_mentions": [{
+            "text": "raissawriter",
+            "url": "http://twitter.com/raissawriter"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:05 +00000",
+        "text": "RT @cnnphilippines: Supporters of President Duterte gather at QCMC to celebrate the first anniversary of 'people's call for change' https:/…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/Ideal_Views/statuses/779551207803219968",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/724857952058937345/FtFxITgL_normal.jpg",
+            "url": "http://twitter.com/Ideal_Views",
+            "userId": "116141817",
+            "name": "Ideal Views"
+        },
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 05:21:03 +00000",
+        "text": "Duterte’s war on drugs in the Philippines can’t hide his policy incompetence https://t.co/vDiX6Tethu",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/RealGeloCim/statuses/779551197078233088",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/1411073232/Vina_and_Me_normal.jpg",
+            "url": "http://twitter.com/RealGeloCim",
+            "userId": "318553146",
+            "name": "Gelo Cim Real Estate"
+        },
+        "urls": [{
+            "url": "http://fb.me/1vQAO1Ha1",
+            "short_url": "https://t.co/vDiX6Tethu"
+        }],
+        "type": "link"
+    }]
+}

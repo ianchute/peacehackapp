@@ -1,0 +1,49 @@
+body {
+  background: #fdc300;
+  font-family: Poppins;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.sentiment {
+  height: 100%;
+  float: left;
+  padding: 10px;
+  background-clip: content-box;
+  width: 0%;
+  opacity: 0;
+}
+
+hr {
+  border-top: 2px inset black;
+}
+
+.sentiment-negative {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.sentiment-neutral {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.sentiment-positive {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+h4 {
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.post {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-overflow: ellipsis;
+  opacity: 0;
+}
+
+.avatar {
+  border-radius: 1000px;
+}

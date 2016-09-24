@@ -1,0 +1,412 @@
+{
+    "meta": {
+        "network": "twitter",
+        "http_code": 200,
+        "requestid": "61fa79ef5d9a474d81c905ac1227a9da",
+        "query_type": "realtime",
+        "limit": 20,
+        "page": 0
+    },
+    "posts": [{
+        "network": "twitter",
+        "posted": "2016-09-24 06:37:07 +00000",
+        "text": "@TVPatrol mgbalita kayo ng patas at Tama tandaan nyo indi Lahat ng patay ay involve sa drugs at isisi nyo Kay Pres Duterte. iSupportPu30",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/YartimdEac/statuses/779570339286175744",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/770151733557272576/YxyJV2Z0_normal.jpg",
+            "url": "http://twitter.com/YartimdEac",
+            "userId": "770149724540182529",
+            "name": "Eac Yartimd"
+        },
+        "user_mentions": [{
+            "text": "TVPatrol",
+            "url": "http://twitter.com/TVPatrol"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:36:10 +00000",
+        "text": "Practically rising from the dead to tell his story of #EJK. https://t.co/vx0yxhMXx1",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/natibk3r/statuses/779570102354096129",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/766225777050300417/FS1lDzFc_normal.jpg",
+            "url": "http://twitter.com/natibk3r",
+            "userId": "17640202",
+            "name": "☆Joe Natibker☆"
+        },
+        "urls": [{
+            "url": "http://www.aljazeera.com/news/2016/09/philippines-playing-dead-survive-duterte-drug-war-160922173054835.html",
+            "short_url": "https://t.co/vx0yxhMXx1"
+        }],
+        "tags": [{
+            "text": "#ejk",
+            "url": "http://twitter.com/search/%23ejk"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:35:42 +00000",
+        "text": "RT @cnnphilippines: Supporters of President Duterte gather at QCMC to celebrate the first anniversary of 'people's call for change' https:/…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/PrietoKay/statuses/779569982761934848",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779185241072074752/IaVR3EOd_normal.jpg",
+            "url": "http://twitter.com/PrietoKay",
+            "userId": "366071093",
+            "name": "Kay"
+        },
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:35:34 +00000",
+        "text": "RT @PhilstarNews: How Duterte's drug war can fail. READ the full #NewsLab report: https://t.co/mrCouf5hhd https://t.co/zQw7o31x98",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "http://pbs.twimg.com/media/CtFazGzVIAA8G2O.jpg",
+        "url": "http://twitter.com/alenailao/statuses/779569952256688129",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779124803911323648/03-H_dsv_normal.jpg",
+            "url": "http://twitter.com/alenailao",
+            "userId": "779116706710982657",
+            "name": "SALIlao"
+        },
+        "urls": [{
+            "url": "http://pbs.twimg.com/media/CtFazGzVIAA8G2O.jpg"
+        }],
+        "user_mentions": [{
+            "text": "PhilstarNews",
+            "url": "http://twitter.com/PhilstarNews"
+        }],
+        "tags": [{
+            "text": "#newslab",
+            "url": "http://twitter.com/search/%23newslab"
+        }],
+        "type": "photo"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:35:31 +00000",
+        "text": "RT @direkrodel: Grabe lagi Taas ng energy ni Sir Rey Valera Bigyan ng energy drink yan ha ha ha ha\n\n#ShowtimeHashtagsBigDay",
+        "lang": "id",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/duterte_ken/statuses/779569936276426752",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779331510205767683/ZZeuw63i_normal.jpg",
+            "url": "http://twitter.com/duterte_ken",
+            "userId": "774639382431014912",
+            "name": "Ken Daryll Duterte"
+        },
+        "user_mentions": [{
+            "text": "direkrodel",
+            "url": "http://twitter.com/direkrodel"
+        }],
+        "tags": [{
+            "text": "#showtimehashtagsbigday",
+            "url": "http://twitter.com/search/%23showtimehashtagsbigday"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:35:26 +00000",
+        "text": "RT @patdeligers: Laughtrip yung mga binibintang nila kay Duterte about kay Taguro 😂🔫 30 katao bumaril pero hindi namamatay, ano? Train to b…",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/jriosgonzales01/statuses/779569918152810496",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/768017883574132736/Awc7j1nK_normal.jpg",
+            "url": "http://twitter.com/jriosgonzales01",
+            "userId": "734368674027474946",
+            "name": "Jaira Rios"
+        },
+        "user_mentions": [{
+            "text": "patdeligers",
+            "url": "http://twitter.com/patdeligers"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:35:25 +00000",
+        "text": "RT @ABSCBNNews: ICYMI: Duterte says Obama can join drug war probe https://t.co/efktOuYlsv https://t.co/g3Eerjfg3s",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "http://pbs.twimg.com/media/CtGCUKaVUAAWeiD.jpg",
+        "url": "http://twitter.com/CabelinIrish/statuses/779569914415722497",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779568844331290624/CiWazh2y_normal.jpg",
+            "url": "http://twitter.com/CabelinIrish",
+            "userId": "779567895256760320",
+            "name": "irish cabelin"
+        },
+        "urls": [{
+            "url": "http://pbs.twimg.com/media/CtGCUKaVUAAWeiD.jpg"
+        }],
+        "user_mentions": [{
+            "text": "ABSCBNNews",
+            "url": "http://twitter.com/ABSCBNNews"
+        }],
+        "type": "photo"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:35:15 +00000",
+        "text": "they won. but duterte's supporters still look angry. why is that?",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/xpeanutgalleryx/statuses/779569872556531713",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778760970407596032/8-b5R78m_normal.jpg",
+            "url": "http://twitter.com/xpeanutgalleryx",
+            "userId": "124112471",
+            "name": "FIGHTDeathPenaltyPH"
+        },
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:34:49 +00000",
+        "text": "\"How stupid can you get?\" -- https://t.co/BurM4SUW8t",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/ritchrojo/statuses/779569761755729920",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/622008080998334465/1jh6Zj9W_normal.jpg",
+            "url": "http://twitter.com/ritchrojo",
+            "userId": "46120269",
+            "name": "Richie Rojo"
+        },
+        "urls": [{
+            "url": "http://f.inq.ph/WvQVcmU",
+            "short_url": "https://t.co/BurM4SUW8t"
+        }],
+        "place": {
+            "place_type": "city",
+            "bounding_box": {
+                "coordinates": ["[121.554489,13.8913446]", "[121.6983316,13.8913446]", "[121.6983316,13.9895496]", "[121.554489,13.9895496]"],
+                "type": "Polygon"
+            },
+            "country_code": "PH",
+            "full_name": "Lucena City, Calabarzon",
+            "name": "Lucena City",
+            "country": "Republic of the Philippines"
+        },
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:34:30 +00000",
+        "text": "@RannaDuben all hail führer Duterte",
+        "lang": "de",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/h_rlequinlights/statuses/779569683687088128",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/774585229373640704/od8tTmY__normal.jpg",
+            "url": "http://twitter.com/h_rlequinlights",
+            "userId": "576930479",
+            "name": "Bea"
+        },
+        "user_mentions": [{
+            "text": "RannaDuben",
+            "url": "http://twitter.com/RannaDuben"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:33:53 +00000",
+        "text": "@RannaDuben hinde Lord Duterte parin ang tama",
+        "lang": "nl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/h_rlequinlights/statuses/779569526560002050",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/774585229373640704/od8tTmY__normal.jpg",
+            "url": "http://twitter.com/h_rlequinlights",
+            "userId": "576930479",
+            "name": "Bea"
+        },
+        "user_mentions": [{
+            "text": "RannaDuben",
+            "url": "http://twitter.com/RannaDuben"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:33:37 +00000",
+        "text": "RT @lizzytimbreza: Duterte: \"Won't pay attention to her, she's ugly.\" \nAlso Duterte: \"Can't pay attention to her, she's pretty.\"",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/mrsxdarkside/statuses/779569460654907393",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777733354049277955/sg4O9iJk_normal.jpg",
+            "url": "http://twitter.com/mrsxdarkside",
+            "userId": "32835910",
+            "name": "Lieve A"
+        },
+        "user_mentions": [{
+            "text": "lizzytimbreza",
+            "url": "http://twitter.com/lizzytimbreza"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:33:26 +00000",
+        "text": "InterAksyon\n\nDuterte wants China to return PHL's right to fish in West Philippine SeaInterAksyonMANILA, Philippine… https://t.co/veJpsaqpfW",
+        "lang": "en",
+        "sentiment": "positive",
+        "image": "",
+        "url": "http://twitter.com/BenhamRise/statuses/779569413649534976",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/1504655991/benhamrise_normal.jpg",
+            "url": "http://twitter.com/BenhamRise",
+            "userId": "355394369",
+            "name": "Benham Rise"
+        },
+        "urls": [{
+            "url": "http://ift.tt/2d5UjLP",
+            "short_url": "https://t.co/veJpsaqpfW"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:33:15 +00000",
+        "text": "@rapplerdotcom What are you specific challenges when it comes to covering Pres. Duterte? especially during elections. :)",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/Paul_Amante/statuses/779569366601834496",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/713425849958014977/DT4sReeU_normal.jpg",
+            "url": "http://twitter.com/Paul_Amante",
+            "userId": "327430642",
+            "name": "Vermont Paul Amante"
+        },
+        "user_mentions": [{
+            "text": "rapplerdotcom",
+            "url": "http://twitter.com/rapplerdotcom"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:33:08 +00000",
+        "text": "RT @raissawriter: Talk to the hand: Do President Duterte and the self-confessed assassin Edgar Matobato sport the same hand tattoo? https:/…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/gvillarreal11/statuses/779569339804463104",
+        "user": {
+            "image": "http://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png",
+            "url": "http://twitter.com/gvillarreal11",
+            "userId": "380671704",
+            "name": "Girl Villarreal"
+        },
+        "user_mentions": [{
+            "text": "raissawriter",
+            "url": "http://twitter.com/raissawriter"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:33:02 +00000",
+        "text": "Duterte Wants US Forces Out of South Philippines https://t.co/VbrAAx6WhD",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/15zzUwUli1ys3cV/statuses/779569314697474048",
+        "user": {
+            "image": "http://abs.twimg.com/sticky/default_profile_images/default_profile_1_normal.png",
+            "url": "http://twitter.com/15zzUwUli1ys3cV",
+            "userId": "2785501902",
+            "name": "Bryan Fernandez"
+        },
+        "urls": [{
+            "url": "http://bit.ly/2cs2otJ",
+            "short_url": "https://t.co/VbrAAx6WhD"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:32:48 +00000",
+        "text": "Just In:Grand Rally in Quezon City Circle for Support of Pres DUTERTE | September 24,2016: https://t.co/4OemDpXH6x via @YouTube",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/trendtopicsph/statuses/779569255012560896",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/736394713381535744/s0iAmqrR_normal.jpg",
+            "url": "http://twitter.com/trendtopicsph",
+            "userId": "3470877318",
+            "name": "Trending TopicsPH"
+        },
+        "urls": [{
+            "url": "http://youtu.be/mpdHBpc2a5Q?a",
+            "short_url": "https://t.co/4OemDpXH6x"
+        }],
+        "user_mentions": [{
+            "text": "YouTube",
+            "url": "http://twitter.com/YouTube"
+        }],
+        "type": "video"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:32:37 +00000",
+        "text": "@DavidInglesTV hot money is like illegal drugs easy come &amp; go. when duterte visits japan &amp; china gets bacon investors left by train to busan",
+        "lang": "en",
+        "sentiment": "positive",
+        "image": "",
+        "url": "http://twitter.com/japokjackpot/statuses/779569206010327040",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/594359790848970753/BS3gx_mh_normal.jpg",
+            "url": "http://twitter.com/japokjackpot",
+            "userId": "164738716",
+            "name": "pacmom"
+        },
+        "user_mentions": [{
+            "text": "DavidInglesTV",
+            "url": "http://twitter.com/DavidInglesTV"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:31:49 +00000",
+        "text": "ay wait nagtext si duterte. ang sisig nyo kuno daw de lata.",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/kurayapnit/statuses/779569006411812864",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/771823215417057280/gBu901c7_normal.jpg",
+            "url": "http://twitter.com/kurayapnit",
+            "userId": "90556511",
+            "name": "chester john"
+        },
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 06:31:45 +00000",
+        "text": "You had me at \"Politics is my life\"\n       you lost me at \"Marcos/Duterte Apologist\"\n\n:--((",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/nyxeca/statuses/779568991626891264",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/775999553057075200/xzhr8Zi__normal.jpg",
+            "url": "http://twitter.com/nyxeca",
+            "userId": "3104284897",
+            "name": "nicole e."
+        },
+        "type": "status"
+    }]
+}

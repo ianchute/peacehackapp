@@ -1,0 +1,429 @@
+{
+    "meta": {
+        "network": "all",
+        "http_code": 200,
+        "requestid": "83f44383993c461f91ee5c4c7aa9b4a5",
+        "query_type": "realtime",
+        "limit": 20,
+        "page": 0
+    },
+    "posts": [{
+        "network": "twitter",
+        "posted": "2016-09-24 03:45:46 +00000",
+        "text": "RT @gabrielaphils: Advocate Richie Extremadura hopes President Duterte addresses comfort women's demands for justice #1BillionRising https:…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/emmidejesus/statuses/779527219555110912",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/656837483074748416/VpA24r7p_normal.jpg",
+            "url": "http://twitter.com/emmidejesus",
+            "userId": "249081557",
+            "name": "Emmi de Jesus"
+        },
+        "user_mentions": [{
+            "text": "gabrielaphils",
+            "url": "http://twitter.com/gabrielaphils"
+        }],
+        "tags": [{
+            "text": "#1billionrising",
+            "url": "http://twitter.com/search/%231billionrising"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:55 +00000",
+        "text": "#KajoyfulnessNews\nDavao Mayor Sara Duterte, nagbigay linaw sa kumakalat na text scams na kabilang ang kaniyang... https://t.co/0XVOJilAKK",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/JMKDANNnews/statuses/779527006618726400",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/378800000501790891/0c4304fedbd0fe93a4d7838ac12ed1ea_normal.png",
+            "url": "http://twitter.com/JMKDANNnews",
+            "userId": "57040464",
+            "name": "KaJoyfulnessNEWS DVO"
+        },
+        "urls": [{
+            "url": "http://fb.me/2uStFry5G",
+            "short_url": "https://t.co/0XVOJilAKK"
+        }],
+        "tags": [{
+            "text": "#kajoyfulnessnews",
+            "url": "http://twitter.com/search/%23kajoyfulnessnews"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:51 +00000",
+        "text": "You know who's following me, too, here on Twitter? The author of El Narco, the book Duterte recommended once to eve… https://t.co/eyBhrOsNQS",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/MrFrancisBaraan/statuses/779526988310589444",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778764026805231616/0cFt5K2A_normal.jpg",
+            "url": "http://twitter.com/MrFrancisBaraan",
+            "userId": "486191342",
+            "name": "Francis B. Baraan IV"
+        },
+        "urls": [{
+            "url": "https://twitter.com/i/web/status/779526988310589444",
+            "short_url": "https://t.co/eyBhrOsNQS"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:35 +00000",
+        "text": "RT @interaksyon: Duterte: Wag kayong matakot. I gave you the guidelines. Parang sa Europe o Amerika, pag sabi taas kamay pero bumunot, pata…",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/gfedcba717/statuses/779526920316649472",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777357105367887872/neaJiUf1_normal.jpg",
+            "url": "http://twitter.com/gfedcba717",
+            "userId": "4911700760",
+            "name": "abmadam4444"
+        },
+        "user_mentions": [{
+            "text": "interaksyon",
+            "url": "http://twitter.com/interaksyon"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:33 +00000",
+        "text": "I liked a @YouTube video https://t.co/kxPG3qjm8v TV Patrol: Baste Duterte, hindi umano apektado sa mga kritisismo sa ama",
+        "lang": "et",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/ejpdizon/statuses/779526913815617537",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/1855302902/DSC_0250a_normal.jpg",
+            "url": "http://twitter.com/ejpdizon",
+            "userId": "38155616",
+            "name": "ej dizon"
+        },
+        "urls": [{
+            "url": "http://youtu.be/Yl2Alq_MwYY?a",
+            "short_url": "https://t.co/kxPG3qjm8v"
+        }],
+        "user_mentions": [{
+            "text": "YouTube",
+            "url": "http://twitter.com/YouTube"
+        }],
+        "type": "video"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:33 +00000",
+        "text": "Live at Nurragingy Reserve, supporters of Duterte and Bato assemble.",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/angkalatas/statuses/779526912389419008",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/507407223962611712/W--LS-cI_normal.jpeg",
+            "url": "http://twitter.com/angkalatas",
+            "userId": "193204801",
+            "name": "Ang Kalatas"
+        },
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:29 +00000",
+        "text": "Raissa Robles asks, Do President Duterte and the self-confessed assassin Edgar Matobato sport the same hand tattoo? https://t.co/fxtSYYnhbv",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/mlq3/statuses/779526893951475713",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/728992202366410752/iG77O0VD_normal.jpg",
+            "url": "http://twitter.com/mlq3",
+            "userId": "4202781",
+            "name": "Manuel L. Quezon III"
+        },
+        "urls": [{
+            "url": "https://www.raissarobles.com/2016/09/23/why-do-president-duterte-and-self-confessed-assassin-edgar-matobato-sport-the-same-hand-tattoo/",
+            "short_url": "https://t.co/fxtSYYnhbv"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:28 +00000",
+        "text": "Duterte dice que Filipinas \"necesita a Estados Unidos después de todo\" https://t.co/uBIGAhv6gy #economía",
+        "lang": "es",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/mercadosaldia/statuses/779526889807421440",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/481011608198475776/ZYAPwmOU_normal.jpeg",
+            "url": "http://twitter.com/mercadosaldia",
+            "userId": "2583705270",
+            "name": "Mercados Al Día"
+        },
+        "urls": [{
+            "url": "http://ift.tt/2cYAnw6",
+            "short_url": "https://t.co/uBIGAhv6gy"
+        }],
+        "tags": [{
+            "text": "#economía",
+            "url": "http://twitter.com/search/%23economía"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:26 +00000",
+        "text": "Someone who thinks statesmanship is not a part of the job description of being president should resign. #duterte https://t.co/JftvLSqytJ",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/PassionateFanPH/statuses/779526882664386560",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/730979203068268544/vWayBUaT_normal.jpg",
+            "url": "http://twitter.com/PassionateFanPH",
+            "userId": "451513459",
+            "name": "Bob Guerrero"
+        },
+        "urls": [{
+            "url": "http://www.rappler.com/nation/147137-duterte-european-union-statesman?utm_content=buffer92bc7&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+            "short_url": "https://t.co/JftvLSqytJ"
+        }],
+        "tags": [{
+            "text": "#duterte",
+            "url": "http://twitter.com/search/%23duterte"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:11 +00000",
+        "text": "RT @cnnphilippines: Supporters chant \"Ako si Duterte. Ako ang pagbabago.\" | @anjocalimario https://t.co/AZa9SaOaMG",
+        "lang": "tl",
+        "sentiment": "positive",
+        "image": "http://pbs.twimg.com/media/CtFrceUUEAIBC4e.jpg",
+        "url": "http://twitter.com/nitesdc/statuses/779526822232924160",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778229903065886720/CVKix_sM_normal.jpg",
+            "url": "http://twitter.com/nitesdc",
+            "userId": "93375400",
+            "name": "Chrysolyte"
+        },
+        "urls": [{
+            "url": "http://pbs.twimg.com/media/CtFrceUUEAIBC4e.jpg"
+        }],
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }, {
+            "text": "anjocalimario",
+            "url": "http://twitter.com/anjocalimario"
+        }],
+        "type": "photo"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:09 +00000",
+        "text": "RT @News5AKSYON: #TV5Aksyon | Pres. Duterte: Ilang sangkot sa droga, pinatatahimik ng mga sindikato https://t.co/Pz1MX07dMF",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "http://pbs.twimg.com/media/CtCJsGyUMAAHwgL.jpg",
+        "url": "http://twitter.com/kristinemariesy/statuses/779526813177356289",
+        "user": {
+            "image": "http://abs.twimg.com/sticky/default_profile_images/default_profile_6_normal.png",
+            "url": "http://twitter.com/kristinemariesy",
+            "userId": "34197148",
+            "name": "Kristine Marie Sy"
+        },
+        "urls": [{
+            "url": "http://pbs.twimg.com/media/CtCJsGyUMAAHwgL.jpg"
+        }],
+        "user_mentions": [{
+            "text": "News5AKSYON",
+            "url": "http://twitter.com/News5AKSYON"
+        }],
+        "tags": [{
+            "text": "#tv5aksyon",
+            "url": "http://twitter.com/search/%23tv5aksyon"
+        }],
+        "type": "photo"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:07 +00000",
+        "text": "RT @cnnphilippines: Their oath of support for President Duterte | @anjocalimario https://t.co/K1PBfhihiG",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "http://pbs.twimg.com/media/CtFrUCqUAAEIHTY.jpg",
+        "url": "http://twitter.com/nitesdc/statuses/779526804944019456",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778229903065886720/CVKix_sM_normal.jpg",
+            "url": "http://twitter.com/nitesdc",
+            "userId": "93375400",
+            "name": "Chrysolyte"
+        },
+        "urls": [{
+            "url": "http://pbs.twimg.com/media/CtFrUCqUAAEIHTY.jpg"
+        }],
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }, {
+            "text": "anjocalimario",
+            "url": "http://twitter.com/anjocalimario"
+        }],
+        "type": "photo"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:06 +00000",
+        "text": "RT @interaksyon: Duterte to PNP awardees: You'll get P200,000 each.",
+        "lang": "nl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/gfedcba717/statuses/779526797255860224",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777357105367887872/neaJiUf1_normal.jpg",
+            "url": "http://twitter.com/gfedcba717",
+            "userId": "4911700760",
+            "name": "abmadam4444"
+        },
+        "user_mentions": [{
+            "text": "interaksyon",
+            "url": "http://twitter.com/interaksyon"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:04 +00000",
+        "text": "RT @cnnphilippines: Supporters of President Duterte gather at QC Circle to celebrate their last year's call for him to run | @anjocalimario…",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/nitesdc/statuses/779526792419749889",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778229903065886720/CVKix_sM_normal.jpg",
+            "url": "http://twitter.com/nitesdc",
+            "userId": "93375400",
+            "name": "Chrysolyte"
+        },
+        "user_mentions": [{
+            "text": "cnnphilippines",
+            "url": "http://twitter.com/cnnphilippines"
+        }, {
+            "text": "anjocalimario",
+            "url": "http://twitter.com/anjocalimario"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:04 +00000",
+        "text": "De Lima unleashed Matobato only because she has no way out of drug charges - Duterte\nhttps://t.co/0bddiSngnf",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/Politiko_Ph/statuses/779526791916433408",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779453493262229504/iy6o-DpU_normal.jpg",
+            "url": "http://twitter.com/Politiko_Ph",
+            "userId": "2473747392",
+            "name": "Politiko"
+        },
+        "urls": [{
+            "url": "http://politics.com.ph/de-lima-unleashed-matobato-no-way-drug-charges-duterte/",
+            "short_url": "https://t.co/0bddiSngnf"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:44:01 +00000",
+        "text": "RT @GabrielaWomenPL: Gabriela Women’s Party Rep. Arlene Brosas said that Duterte’s “growing assertiveness in bringing up historical... http…",
+        "lang": "en",
+        "sentiment": "positive",
+        "image": "",
+        "url": "http://twitter.com/emmidejesus/statuses/779526778587000832",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/656837483074748416/VpA24r7p_normal.jpg",
+            "url": "http://twitter.com/emmidejesus",
+            "userId": "249081557",
+            "name": "Emmi de Jesus"
+        },
+        "user_mentions": [{
+            "text": "GabrielaWomenPL",
+            "url": "http://twitter.com/GabrielaWomenPL"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:43:55 +00000",
+        "text": "RT @interaksyon: Duterte: Sabi ko sa mga officers ninyo, be careful. Narco politcs has entered the Philippine democracy. Bantay kayo diyan.",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/gfedcba717/statuses/779526751470833664",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777357105367887872/neaJiUf1_normal.jpg",
+            "url": "http://twitter.com/gfedcba717",
+            "userId": "4911700760",
+            "name": "abmadam4444"
+        },
+        "user_mentions": [{
+            "text": "interaksyon",
+            "url": "http://twitter.com/interaksyon"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:43:54 +00000",
+        "text": "RT @inquirerdotnet: President Duterte on Senator Leila De Lima: I do not want to pay attention to her because she is ugly.",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/shrlmnla/statuses/779526748182421509",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779285474594566144/WQhSi67m_normal.jpg",
+            "url": "http://twitter.com/shrlmnla",
+            "userId": "2399340337",
+            "name": "shereal marie"
+        },
+        "user_mentions": [{
+            "text": "inquirerdotnet",
+            "url": "http://twitter.com/inquirerdotnet"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:43:54 +00000",
+        "text": "RT @interaksyon: Duterte on De Lima: Ayaw ko siyang patulan kasi pangit siya.",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/gfedcba717/statuses/779526746907389954",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777357105367887872/neaJiUf1_normal.jpg",
+            "url": "http://twitter.com/gfedcba717",
+            "userId": "4911700760",
+            "name": "abmadam4444"
+        },
+        "user_mentions": [{
+            "text": "interaksyon",
+            "url": "http://twitter.com/interaksyon"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 03:43:54 +00000",
+        "text": "RT @interaksyon: Duterte: Men judge best when they condemn.",
+        "lang": "en",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/gfedcba717/statuses/779526746857021445",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777357105367887872/neaJiUf1_normal.jpg",
+            "url": "http://twitter.com/gfedcba717",
+            "userId": "4911700760",
+            "name": "abmadam4444"
+        },
+        "user_mentions": [{
+            "text": "interaksyon",
+            "url": "http://twitter.com/interaksyon"
+        }],
+        "type": "status"
+    }]
+}

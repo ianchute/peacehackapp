@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>#peacehack | Realtime Social Media Sentiment Monitor</title>
+
+    <link rel="shortcut icon" href="logo.ico">
+    <link rel="stylesheet" href="/assets/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/assets/style.css" media="screen" title="no title">
+
+    <script src="lib/jquery.min.js" charset="utf-8"></script>
+    <script src="lib/bootstrap.min.js" charset="utf-8"></script>
+
+    <script src="services/Guid.js" charset="utf-8"></script>
+
+    <script src="components/TweetContainer.js" charset="utf-8"></script>
+    <script src="components/GooglePlusContainer.js" charset="utf-8"></script>
+    <script src="components/MediaContainer.js" charset="utf-8"></script>
+    <script src="components/SentimentContainerManager.js" charset="utf-8"></script>
+    <script src="components/App.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="logo.ico" alt="" style="height: 30px; width: 30px;" /></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">#peacehack | Realtime Social Media Sentiment Monitor</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="sentiment sentiment-positive">
+      <h4>
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+        <span class="percentage"></span>
+      </h4>
+      <hr>
+    </div>
+
+    <div class="sentiment sentiment-neutral">
+      <h4>
+        <span class="glyphicon glyphicon-asterisk"></span>
+        <span class="percentage"></span>
+      </h4>
+      <hr>
+    </div>
+
+    <div class="sentiment sentiment-negative">
+      <h4>
+        <span class="glyphicon glyphicon-thumbs-down"></span>
+        <span class="percentage"></span>
+      </h4>
+      <hr>
+    </div>
+
+    <div class="sentiment sentiment-none">
+      <h4>No sentiments yet.</h4>
+      <hr>
+    </div>
+
+    <script type="text/javascript">
+      $(() => {window.CurrentApp = new App()})
+    </script>
+
+  </body>
+
+</html>
