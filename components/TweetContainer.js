@@ -23,7 +23,7 @@ class TweetContainer {
 
     const $elem = $(`<div id=${this.id} class="post">
       <img src="${image}" class="avatar"/>
-      <b>${name}</b> - ${window.Languages[lang]}
+      <b>${name}</b> - ${window.Languages[lang] || `Unknown(${lang})`}
       <br><br>
       ${text.replace(this.keywordRegex, this.keywordElem)}
       <hr>
@@ -39,4 +39,5 @@ class TweetContainer {
   deleteComponent() {
     $(`#${this.id}`).fadeOut(() => $(`#${this.id}`).remove())
   }
+  
 }

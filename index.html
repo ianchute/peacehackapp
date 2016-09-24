@@ -8,18 +8,24 @@
     <link rel="shortcut icon" href="logo.ico">
     <link rel="stylesheet" href="/assets/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="/assets/style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/assets/jqcloud.css" media="screen" title="no title">
 
+    <script src="lib/underscore-min.js" charset="utf-8"></script>
     <script src="lib/jquery.min.js" charset="utf-8"></script>
     <script src="lib/bootstrap.min.js" charset="utf-8"></script>
     <script src="lib/Chart.min.js" charset="utf-8"></script>
+    <script src="lib/jqcloud.min.js" charset="utf-8"></script>
 
     <script src="services/Guid.js" charset="utf-8"></script>
     <script src="services/Languages.js" charset="utf-8"></script>
+    <script src="services/CommonWords.js" charset="utf-8"></script>
+    <script src="services/WordCleaner.js" charset="utf-8"></script>
 
     <script src="components/TweetContainer.js" charset="utf-8"></script>
     <script src="components/ObjectStorage.js" charset="utf-8"></script>
     <script src="components/SentimentContainerManager.js" charset="utf-8"></script>
     <script src="components/ChartManager.js" charset="utf-8"></script>
+    <script src="components/WordCloudManager.js" charset="utf-8"></script>
     <script src="components/App.js" charset="utf-8"></script>
   </head>
 
@@ -42,8 +48,6 @@
             </ul>
           </div>
 
-
-
         </div>
       </nav>
 
@@ -51,9 +55,6 @@
         <div class="col-md-6">
           <canvas height="100" class="positive"></canvas>
         </div>
-        <!-- <div class="col-md-4">
-          <canvas height="120" class="neutral"></canvas>
-        </div> -->
         <div class="col-md-6">
           <canvas height="100" class="negative"></canvas>
         </div>
@@ -68,14 +69,7 @@
         <span class="percentage"></span>
       </h4>
       <hr>
-    </div>
-
-    <div class="sentiment sentiment-neutral">
-      <h4>
-        <span class="glyphicon glyphicon-asterisk"></span>
-        <span class="percentage"></span>
-      </h4>
-      <hr>
+      <div class="wordcloud"></div>
     </div>
 
     <div class="sentiment sentiment-negative">
@@ -84,6 +78,7 @@
         <span class="percentage"></span>
       </h4>
       <hr>
+      <div class="wordcloud"></div>
     </div>
 
     <div class="sentiment sentiment-none">

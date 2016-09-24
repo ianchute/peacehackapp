@@ -1,0 +1,422 @@
+{
+    "meta": {
+        "network": "twitter",
+        "http_code": 200,
+        "requestid": "b5ea2585deb24162bd7baa0180ff161e",
+        "query_type": "realtime",
+        "limit": 20,
+        "page": 0
+    },
+    "posts": [{
+        "network": "twitter",
+        "posted": "2016-09-24 10:57:02 +00000",
+        "text": "RT @chuseranglangit: Tangina nito magnanakaw na ang tapang pa! Magsama kayo ni De Lima!!! #PBBLuckyS7TeensLiveOnKIA https://t.co/LIg9SfhgK0",
+        "lang": "tl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/femmenzi/statuses/779635749201154048",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/773444310083723264/oipzeZCK_normal.jpg",
+            "url": "http://twitter.com/femmenzi",
+            "userId": "768638484751917058",
+            "name": "Yveinne"
+        },
+        "urls": [{
+            "url": "https://twitter.com/beshyni/status/779612065883230208",
+            "short_url": "https://t.co/LIg9SfhgK0"
+        }],
+        "user_mentions": [{
+            "text": "chuseranglangit",
+            "url": "http://twitter.com/chuseranglangit"
+        }],
+        "tags": [{
+            "text": "#pbbluckys7teensliveonkia",
+            "url": "http://twitter.com/search/%23pbbluckys7teensliveonkia"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:56:46 +00000",
+        "text": "RT @ensustrece: En @ensustrece: congresista de #PPK que fue con el 3 por Lima, Roberto Vieira, parece (¿parece?) seguidor del reo Alberto F…",
+        "lang": "es",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/elvira_baldeon/statuses/779635684126629888",
+        "user": {
+            "image": "http://abs.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+            "url": "http://twitter.com/elvira_baldeon",
+            "userId": "3295988449",
+            "name": "Elvira .A Baldeon"
+        },
+        "user_mentions": [{
+            "text": "ensustrece",
+            "url": "http://twitter.com/ensustrece"
+        }, {
+            "text": "ensustrece",
+            "url": "http://twitter.com/ensustrece"
+        }],
+        "tags": [{
+            "text": "#ppk",
+            "url": "http://twitter.com/search/%23ppk"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:56:39 +00000",
+        "text": "@UstUniverse Y ES DE LIMA ahre",
+        "lang": "de",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/UstUniverse/statuses/779635653566926848",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/774940093618462721/MXibksI6_normal.jpg",
+            "url": "http://twitter.com/UstUniverse",
+            "userId": "4158439043",
+            "name": "🍃 micaela / -22 🍃"
+        },
+        "user_mentions": [{
+            "text": "UstUniverse",
+            "url": "http://twitter.com/UstUniverse"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:56:18 +00000",
+        "text": "Estou em semana de prova. Minha amiga falou pra profa. \n\"A senhora vai ter pena da gente, né profa.? Ai ela \"Pena não, esperança\"",
+        "lang": "pt",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/amc_lima/statuses/779635564538630144",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/771541659402153988/zdjnvqos_normal.jpg",
+            "url": "http://twitter.com/amc_lima",
+            "userId": "187282866",
+            "name": "Amanda Lima"
+        },
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:56:17 +00000",
+        "text": "RT @lcmlaw_ph: Aguirre admits AMLC docs don't show De Lima owns accounts &amp; that he has no airtight case yet but he misleads us that drug ca…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/MoxieLi/statuses/779635560180617216",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778106008371621888/9FjGtt3r_normal.jpg",
+            "url": "http://twitter.com/MoxieLi",
+            "userId": "2234037898",
+            "name": "MrsHan"
+        },
+        "user_mentions": [{
+            "text": "lcmlaw_ph",
+            "url": "http://twitter.com/lcmlaw_ph"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:55:56 +00000",
+        "text": "Parabéns coisinha, tudo de bom na sua vida, que Deus continue te iluminando sempre, muitas felicidades 🎉❤💥 @joston_lima",
+        "lang": "pt",
+        "sentiment": "positive",
+        "image": "",
+        "url": "http://twitter.com/camilainacio80/statuses/779635475078320128",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/770333206105169920/LHiIHP93_normal.jpg",
+            "url": "http://twitter.com/camilainacio80",
+            "userId": "2486114735",
+            "name": "1.5 da novinha"
+        },
+        "user_mentions": [{
+            "text": "joston_lima",
+            "url": "http://twitter.com/joston_lima"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:55:31 +00000",
+        "text": "agora estão acusando ele de ter roubado o palacio. só falta dizer que ele tambem é ladrão de galinha. pobre justiça… https://t.co/OLhNBLqFYS",
+        "lang": "pt",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/lima_jt/statuses/779635366877917184",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/767826041368739841/1TfOfl5i_normal.jpg",
+            "url": "http://twitter.com/lima_jt",
+            "userId": "1278262842",
+            "name": "joao tomas de lima"
+        },
+        "urls": [{
+            "url": "https://twitter.com/i/web/status/779635366877917184",
+            "short_url": "https://t.co/OLhNBLqFYS"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:55:08 +00000",
+        "text": "Hj é dia de de trampsta, naah Ferraz, back2low, Allan Lima, nani, tude.... Eita line bom hein 👽👽 #ravesrj #pvt #prog #low #minimal ...",
+        "lang": "sl",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/iamolinaro/statuses/779635273361678336",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779621586726952960/EO1YQ3Ot_normal.jpg",
+            "url": "http://twitter.com/iamolinaro",
+            "userId": "465825867",
+            "name": "Iancazita"
+        },
+        "tags": [{
+            "text": "#ravesrj",
+            "url": "http://twitter.com/search/%23ravesrj"
+        }, {
+            "text": "#pvt",
+            "url": "http://twitter.com/search/%23pvt"
+        }, {
+            "text": "#prog",
+            "url": "http://twitter.com/search/%23prog"
+        }, {
+            "text": "#low",
+            "url": "http://twitter.com/search/%23low"
+        }, {
+            "text": "#minimal",
+            "url": "http://twitter.com/search/%23minimal"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:55:01 +00000",
+        "text": "posição 3399 no Ranking segue-de-volta. Confira os 100 primeiros: https://t.co/Tqxh5QTT6f. #1 @segvolta",
+        "lang": "pt",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/criskelly_lima/statuses/779635244458713088",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/723322403993075712/QMeZ1ZkL_normal.jpg",
+            "url": "http://twitter.com/criskelly_lima",
+            "userId": "1920903739",
+            "name": "Crix"
+        },
+        "urls": [{
+            "url": "http://www.segue-de-volta.com.br/twitters-com-mais-seguidores/",
+            "short_url": "https://t.co/Tqxh5QTT6f"
+        }],
+        "user_mentions": [{
+            "text": "segvolta",
+            "url": "http://twitter.com/segvolta"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:55:01 +00000",
+        "text": "0 novos seguidores, 0 DMs enviadas, 1 pararam de seguir.  : https://t.co/bdUJNkTkAr @VerCursoGratis",
+        "lang": "pt",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/criskelly_lima/statuses/779635243036860416",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/723322403993075712/QMeZ1ZkL_normal.jpg",
+            "url": "http://twitter.com/criskelly_lima",
+            "userId": "1920903739",
+            "name": "Crix"
+        },
+        "urls": [{
+            "url": "http://www.segue-de-volta.com.br/criskelly_lima",
+            "short_url": "https://t.co/bdUJNkTkAr"
+        }],
+        "user_mentions": [{
+            "text": "VerCursoGratis",
+            "url": "http://twitter.com/VerCursoGratis"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:55:00 +00000",
+        "text": "RT @lcmlaw_ph: Aguirre admits AMLC docs don't show De Lima owns accounts &amp; that he has no airtight case yet but he misleads us that drug ca…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/jfvelasco24/statuses/779635240423690241",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777318387416387584/oelXp9PO_normal.jpg",
+            "url": "http://twitter.com/jfvelasco24",
+            "userId": "177123069",
+            "name": "Joshua Velasco"
+        },
+        "user_mentions": [{
+            "text": "lcmlaw_ph",
+            "url": "http://twitter.com/lcmlaw_ph"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:54:47 +00000",
+        "text": "Eu &lt;3 Marina Lima / Lady Sings The Blues / Doida De Rachar (Maxine) https://t.co/SEHzwMZes7 @DeezerBrasil",
+        "lang": "de",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/jcaiovaz/statuses/779635184526356480",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/677749560/Imag062_normal.jpg",
+            "url": "http://twitter.com/jcaiovaz",
+            "userId": "110522492",
+            "name": "Julio Caio F. Vaz"
+        },
+        "urls": [{
+            "url": "http://www.deezer.com/track/3068039",
+            "short_url": "https://t.co/SEHzwMZes7"
+        }],
+        "user_mentions": [{
+            "text": "DeezerBrasil",
+            "url": "http://twitter.com/DeezerBrasil"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:54:27 +00000",
+        "text": "Minha mae me arrasta pra nova lima pra fazer prova de colegio anem",
+        "lang": "pt",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/Bicalho22/statuses/779635102116610048",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/773259336332247041/EcRGQV8R_normal.jpg",
+            "url": "http://twitter.com/Bicalho22",
+            "userId": "557840320",
+            "name": "Bicalho"
+        },
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:54:20 +00000",
+        "text": "RT @inquirerdotnet: President Duterte on Senator Leila De Lima: I do not want to pay attention to her because she is ugly.",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/LomardaJanine/statuses/779635069468061696",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/777173011745026048/WZQeTrdR_normal.jpg",
+            "url": "http://twitter.com/LomardaJanine",
+            "userId": "1405107115",
+            "name": "jan • school"
+        },
+        "user_mentions": [{
+            "text": "inquirerdotnet",
+            "url": "http://twitter.com/inquirerdotnet"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:53:46 +00000",
+        "text": "RT @lcmlaw_ph: Aguirre admits AMLC docs don't show De Lima owns accounts &amp; that he has no airtight case yet but he misleads us that drug ca…",
+        "lang": "en",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/silverio_butch/statuses/779634927012749312",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/772957757540446208/5C1Iapt6_normal.jpg",
+            "url": "http://twitter.com/silverio_butch",
+            "userId": "2291454967",
+            "name": "Butch Silverio"
+        },
+        "user_mentions": [{
+            "text": "lcmlaw_ph",
+            "url": "http://twitter.com/lcmlaw_ph"
+        }],
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:53:45 +00000",
+        "text": "Même si Adriana Lima l'inviterait à boire un verre il sen battrais les couilles donc bon les meufs de Bordeaux aucune peur",
+        "lang": "fr",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/cmzirs/statuses/779634924085252096",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/778262077928509440/Q3wECQZV_normal.jpg",
+            "url": "http://twitter.com/cmzirs",
+            "userId": "2240580692",
+            "name": "77"
+        },
+        "type": "status"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:53:29 +00000",
+        "text": "posição 5643 no Ranking segue-de-volta. Confira os 100 primeiros: https://t.co/NR97i9Sg15. #1 @segvolta",
+        "lang": "pt",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/lima_carolinna/statuses/779634855097278464",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/685425096253685760/bNgr1wi3_normal.jpg",
+            "url": "http://twitter.com/lima_carolinna",
+            "userId": "1167074263",
+            "name": "Aninha ⚓"
+        },
+        "urls": [{
+            "url": "http://www.segue-de-volta.com.br/twitters-com-mais-seguidores/",
+            "short_url": "https://t.co/NR97i9Sg15"
+        }],
+        "user_mentions": [{
+            "text": "segvolta",
+            "url": "http://twitter.com/segvolta"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:53:28 +00000",
+        "text": "0 novos seguidores, 0 DMs enviadas, 1 pararam de seguir.  : https://t.co/9dT5skZ3e2",
+        "lang": "pt",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/lima_carolinna/statuses/779634853784522752",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/685425096253685760/bNgr1wi3_normal.jpg",
+            "url": "http://twitter.com/lima_carolinna",
+            "userId": "1167074263",
+            "name": "Aninha ⚓"
+        },
+        "urls": [{
+            "url": "http://www.segue-de-volta.com.br/lima_carolinna",
+            "short_url": "https://t.co/9dT5skZ3e2"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:53:11 +00000",
+        "text": "Top tweets: Di ka nag-iisa: De Lima gets #LabanLeila tweets  https://t.co/iZpwMeSqjj",
+        "lang": "af",
+        "sentiment": "neutral",
+        "image": "",
+        "url": "http://twitter.com/Politiko_Ph/statuses/779634780694417408",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/779453493262229504/iy6o-DpU_normal.jpg",
+            "url": "http://twitter.com/Politiko_Ph",
+            "userId": "2473747392",
+            "name": "Politiko"
+        },
+        "urls": [{
+            "url": "http://politics.com.ph/top-tweets-delima-labanleila-tweets/",
+            "short_url": "https://t.co/iZpwMeSqjj"
+        }],
+        "tags": [{
+            "text": "#labanleila",
+            "url": "http://twitter.com/search/%23labanleila"
+        }],
+        "type": "link"
+    }, {
+        "network": "twitter",
+        "posted": "2016-09-24 10:52:54 +00000",
+        "text": "Esto esta manipulado de aquí a Lima para fomentar el odio y me toca mucho los cojones que se supone que es pública.",
+        "lang": "es",
+        "sentiment": "negative",
+        "image": "",
+        "url": "http://twitter.com/EirianLovegood/statuses/779634709462736896",
+        "user": {
+            "image": "http://pbs.twimg.com/profile_images/736648048915435521/1zZEtob8_normal.jpg",
+            "url": "http://twitter.com/EirianLovegood",
+            "userId": "318376361",
+            "name": "Erik Reenberg"
+        },
+        "type": "status"
+    }]
+}

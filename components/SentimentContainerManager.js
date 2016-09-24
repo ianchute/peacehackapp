@@ -5,9 +5,7 @@ class SentimentContainerManager {
     this.storage = storage
 
     this.$negative = $('.sentiment-negative')
-    this.$neutral = $('.sentiment-neutral')
     this.$positive = $('.sentiment-positive')
-
     this.$none = $('.sentiment-none')
 
   }
@@ -17,11 +15,9 @@ class SentimentContainerManager {
     const totalPosts = $('.post').length
 
     const negativePosts = $('.sentiment-negative > .post').length
-    const neutralPosts = $('.sentiment-neutral > .post').length
     const positivePosts = $('.sentiment-positive > .post').length
 
     const negativePercentage = negativePosts ? (negativePosts / totalPosts * 100).toFixed(0) + '%' : 0
-    const neutralPercentage = neutralPosts ? (neutralPosts / totalPosts * 100).toFixed(0) + '%' : 0
     const positivePercentage = positivePosts ? (positivePosts / totalPosts * 100).toFixed(0) + '%' : 0
 
     if (totalPosts) {
@@ -40,18 +36,6 @@ class SentimentContainerManager {
       this.$negative.animate({
         width: negativePercentage
       }, 1000, () => this.$negative.css({ opacity: 0 }))
-    }
-
-    if (neutralPercentage) {
-      this.$neutral.animate({
-        width: neutralPercentage,
-        opacity: 1,
-        display: 'initial'
-      }, 1000)
-    } else {
-      this.$neutral.animate({
-        width: negativePercentage
-      }, 1000, () => this.$neutral.css({ opacity: 0, display: 'none' }))
     }
 
     if (positivePercentage) {
@@ -73,12 +57,10 @@ class SentimentContainerManager {
     }
 
     $('.sentiment-negative > h4 > span.percentage').text(negativePercentage + ` - ${negativePosts} Posts`)
-    $('.sentiment-neutral > h4 > span.percentage').text(neutralPercentage + ` - ${neutralPosts} Posts`)
     $('.sentiment-positive > h4 > span.percentage').text(positivePercentage + ` - ${positivePosts} Posts`)
 
     this.store({
       positive: +positivePercentage.toString().replace('%', ''),
-      neutral: +neutralPercentage.toString().replace('%', ''),
       negative: +negativePercentage.toString().replace('%', '')
     })
 

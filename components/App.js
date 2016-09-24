@@ -2,14 +2,13 @@ class App {
 
   constructor() {
 
-    $.ajaxSetup({
-      cache: false
-    });
+    $.ajaxSetup({ cache: false })
 
     this.components = []
     this.storage = new ObjectStorage()
     this.sentimentContainerManager = new SentimentContainerManager(this.storage)
     this.chartManager = new ChartManager(this.storage)
+    this.wordCloudManager = new WordCloudManager(this.storage)
 
     this.update('data/blank.json')
 
@@ -32,6 +31,7 @@ class App {
 
       this.sentimentContainerManager.update()
       this.chartManager.update()
+      this.wordCloudManager.update(data, 'duterte')
 
     })
 
@@ -43,7 +43,11 @@ class App {
 
     setTimeout(() => this.update('data/duterte/sample2.json'), 6000)
 
-    setTimeout(() => { this.update('data/duterte/sample3.json'); this.simulate() }, 9000)
+    setTimeout(() => this.update('data/duterte/sample3.json'), 9000)
+
+    setTimeout(() => this.update('data/duterte/sample4.json'), 12000)
+
+    setTimeout(() => { this.update('data/duterte/sample5.json'); this.simulate() }, 15000)
 
   }
 

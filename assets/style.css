@@ -26,10 +26,6 @@ hr {
   background-color: rgba(255, 0, 0, 0.5);
 }
 
-.sentiment-neutral {
-  background-color: rgba(0, 0, 255, 0.5);
-}
-
 .sentiment-positive {
   background-color: rgba(0, 255, 0, 0.5);
 }
