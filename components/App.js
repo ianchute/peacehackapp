@@ -7,8 +7,13 @@ class App {
     });
 
     this.components = []
-    this.sentimentContainerManager = new SentimentContainerManager()
-    this.simulate() // Testing
+    this.storage = new ObjectStorage()
+    this.sentimentContainerManager = new SentimentContainerManager(this.storage)
+    this.chartManager = new ChartManager(this.storage)
+
+    this.update('data/blank.json')
+
+    setTimeout(() => this.simulate(), 1000) // Testing
     // this.listen() // Production
   }
 
@@ -26,6 +31,7 @@ class App {
       this.components = tweets
 
       this.sentimentContainerManager.update()
+      this.chartManager.update()
 
     })
 
@@ -33,13 +39,11 @@ class App {
 
   simulate() {
 
-    this.update('data/sample0.json')
+    setTimeout(() => this.update('data/duterte/sample1.json'), 3000)
 
-    setTimeout(() => this.update('data/sample1.json'), 5000)
+    setTimeout(() => this.update('data/duterte/sample2.json'), 6000)
 
-    setTimeout(() => this.update('data/sample2.json'), 10000)
-
-    setTimeout(() => this.update('data/sample3.json'), 15000)
+    setTimeout(() => { this.update('data/duterte/sample3.json'); this.simulate() }, 9000)
 
   }
 

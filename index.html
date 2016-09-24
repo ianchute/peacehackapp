@@ -11,13 +11,15 @@
 
     <script src="lib/jquery.min.js" charset="utf-8"></script>
     <script src="lib/bootstrap.min.js" charset="utf-8"></script>
+    <script src="lib/Chart.min.js" charset="utf-8"></script>
 
     <script src="services/Guid.js" charset="utf-8"></script>
+    <script src="services/Languages.js" charset="utf-8"></script>
 
     <script src="components/TweetContainer.js" charset="utf-8"></script>
-    <script src="components/GooglePlusContainer.js" charset="utf-8"></script>
-    <script src="components/MediaContainer.js" charset="utf-8"></script>
+    <script src="components/ObjectStorage.js" charset="utf-8"></script>
     <script src="components/SentimentContainerManager.js" charset="utf-8"></script>
+    <script src="components/ChartManager.js" charset="utf-8"></script>
     <script src="components/App.js" charset="utf-8"></script>
   </head>
 
@@ -40,10 +42,25 @@
             </ul>
           </div>
 
+
+
         </div>
       </nav>
 
+      <div class="row charts">
+        <div class="col-md-6">
+          <canvas height="100" class="positive"></canvas>
+        </div>
+        <!-- <div class="col-md-4">
+          <canvas height="120" class="neutral"></canvas>
+        </div> -->
+        <div class="col-md-6">
+          <canvas height="100" class="negative"></canvas>
+        </div>
+      </div>
     </div>
+
+    <br>
 
     <div class="sentiment sentiment-positive">
       <h4>
@@ -70,8 +87,8 @@
     </div>
 
     <div class="sentiment sentiment-none">
-      <h4>No sentiments yet.</h4>
-      <hr>
+      <img src="assets/loader.gif" alt=""/>
+      <h4>Waiting for new sentiments...</h4>
     </div>
 
     <script type="text/javascript">

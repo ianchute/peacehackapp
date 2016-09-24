@@ -1,8 +1,10 @@
 class TweetContainer {
 
-  constructor({ url, sentiment, text, user: { name, image } }) {
+  constructor({ url, sentiment, text, posted, lang, user: { name, image } }, keyword = 'Duterte') {
 
     this.id = Guid.create()
+    this.keywordRegex = new RegExp(keyword, 'ig')
+    this.keywordElem = `<b class="keyword">${keyword}</b>`
 
     const container = `.sentiment-${sentiment}`
 
@@ -19,7 +21,15 @@ class TweetContainer {
     //   </iframe>`
     // )
 
-    const $elem = $(`<div id=${this.id} class="post"><img src="${image}" class="avatar"/> <b>${name}:</b> ${text}<hr></div>`)
+    const $elem = $(`<div id=${this.id} class="post">
+      <img src="${image}" class="avatar"/>
+      <b>${name}</b> - ${window.Languages[lang]}
+      <br><br>
+      ${text.replace(this.keywordRegex, this.keywordElem)}
+      <hr>
+    </div>`)
+
+    $elem.click(e => window.open(url, '_blank'))
 
     $(container).append($elem)
 

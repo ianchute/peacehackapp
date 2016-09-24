@@ -1,6 +1,8 @@
 body {
   background: #fdc300;
-  font-family: Poppins;
+  font-family: Ubuntu;
+  text-rendering: optimizeLegibility;
+  --webkit-filter: brightness(1.1) contrast(1.1);
 }
 
 .navbar {
@@ -32,9 +34,16 @@ hr {
   background-color: rgba(0, 255, 0, 0.5);
 }
 
-h4 {
+.sentiment h4 {
   text-align: center;
   text-overflow: ellipsis;
+}
+
+.sentiment-none img {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -100%);
 }
 
 .post {
@@ -42,8 +51,25 @@ h4 {
   padding-right: 20px;
   text-overflow: ellipsis;
   opacity: 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.post:hover {
+  background-color: rgba(255,255,255,0.2)
 }
 
 .avatar {
   border-radius: 1000px;
+  margin-right: 5px;
+}
+
+.charts {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.keyword {
+  text-decoration: underline;
+  color: blue;
 }
