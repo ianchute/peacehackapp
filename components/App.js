@@ -16,11 +16,13 @@ class App {
     // this.listen() // Production
 
     $(document).on('sentiment.container.widthUpdate.done',
-      (e, data) => requestAnimationFrame(() => {
+      (e, data) => setTimeout(() => {
         this.wordCloudManager.update(data, 'duterte')
         this.chartManager.update()
       })
     )
+
+    $('.close').click(() => setTimeout(() => $('#related-tweets').empty(), 300))
   }
 
   update(source) {
@@ -37,7 +39,7 @@ class App {
 
       this.components = tweets
 
-      requestAnimationFrame(() => this.sentimentContainerManager.update(data))
+      setTimeout(() => this.sentimentContainerManager.update(data))
 
     })
 
@@ -45,13 +47,13 @@ class App {
 
   simulate() {
 
-    setTimeout(() => this.update('data/duterte/sample2.json'), 10000)
+    setTimeout(() => this.update('data/duterte/sample4.json'), 10000)
 
     setTimeout(() => this.update('data/duterte/sample1.json'), 20000)
 
     setTimeout(() => this.update('data/duterte/sample3.json'), 30000)
 
-    setTimeout(() => this.update('data/duterte/sample4.json'), 40000)
+    setTimeout(() => this.update('data/duterte/sample2.json'), 40000)
 
     setTimeout(() => { this.update('data/duterte/sample5.json'); this.simulate() }, 50000)
 

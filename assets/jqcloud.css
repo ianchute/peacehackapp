@@ -28,6 +28,14 @@ div.jqcloud span.w1 { font-size: 100%; }
 
 /* colors */
 
+div.jqcloud span {
+  cursor: pointer;
+}
+
+div.jqcloud span:hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
 div.jqcloud { color: #09f; }
 div.jqcloud a { color: inherit; }
 div.jqcloud a:hover { color: #0df; }

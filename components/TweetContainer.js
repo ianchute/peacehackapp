@@ -21,7 +21,7 @@ class TweetContainer {
     //   </iframe>`
     // )
 
-    const $elem = $(`<div id=${this.id} class="post" style="display:none">
+    const $elem = $(`<div id=${this.id} class="post" style="display:none" data-text="${WordCleaner.clean(text)}">
       <img src="${image}" class="avatar"/>
       <b>${name}</b> - ${window.Languages[lang] || `Unknown(${lang})`}
       <br><br>

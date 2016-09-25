@@ -20,6 +20,7 @@
     <script src="services/Languages.js" charset="utf-8"></script>
     <script src="services/CommonWords.js" charset="utf-8"></script>
     <script src="services/WordCleaner.js" charset="utf-8"></script>
+    <script src="services/OverlayService.js" charset="utf-8"></script>
 
     <script src="components/TweetContainer.js" charset="utf-8"></script>
     <script src="components/ObjectStorage.js" charset="utf-8"></script>
@@ -30,6 +31,22 @@
   </head>
 
   <body>
+
+    <button id="modalLauncher" data-toggle="modal" data-target="#myModal" style="height: 0; width: 0; opacity: 0">
+    </button>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Related tweets</h4>
+          </div>
+          <div class="modal-body" id="related-tweets">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
 
@@ -88,15 +105,15 @@
 
 
 
-
-
     <div class="sentiment sentiment-none">
-      <img src="assets/loader.gif" alt="Loading..."/>
+      <img src="assets/loader.gif" alt="Loading..." />
       <h4>Waiting for new sentiments...</h4>
     </div>
 
     <script type="text/javascript">
-      $(() => {window.CurrentApp = new App()})
+    $(() => {
+      window.CurrentApp = new App()
+    })
     </script>
 
   </body>

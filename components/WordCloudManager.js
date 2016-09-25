@@ -35,7 +35,10 @@ class WordCloudManager {
       .pairs()
       .map(([key, value]) => ({
         text: key,
-        weight: +value
+        weight: +value,
+        handlers: {
+          click: e => OverlayService.overlay(e.target.innerHTML)
+        }
       }))
       .sortBy('weight')
       .last(20)
@@ -46,23 +49,17 @@ class WordCloudManager {
 
     const normalizedPositiveWordList = positiveWordList.map(word => ({
       text: word.text,
-      weight: word.weight - positiveMinimum
+      weight: word.weight - positiveMinimum,
+      handlers: word.handlers,
     }))
 
-    const cloudExists = $('.wordcloud').hasClass('jqcloud')
-
-    if (cloudExists) {
-      $('.sentiment-positive .wordcloud').jQCloud('update',
+    $('.sentiment-positive .wordcloud')
+      .jQCloud('destroy')
+      .jQCloud(
         positiveMinimum <= 1
           ? normalizedPositiveWordList
-          : positiveWordList)
-    } else {
-      $('.sentiment-positive .wordcloud').jQCloud(
-        positiveMinimum <= 1
-          ? normalizedPositiveWordList
-          : positiveWordList, { height: 300, delay: 100 })
-    }
-
+          : positiveWordList, { height: 250, delay: 100 }
+      )
 
     const negativeWordList = _.chain(this.storage.get('negative_words'))
       .filter(_.identity)
@@ -73,7 +70,10 @@ class WordCloudManager {
       .pairs()
       .map(([key, value]) => ({
         text: key,
-        weight: +value
+        weight: +value,
+        handlers: {
+          click: e => OverlayService.overlay(e.target.innerHTML)
+        }
       }))
       .sortBy('weight')
       .last(20)
@@ -84,21 +84,17 @@ class WordCloudManager {
 
     const normalizedNegativeWordList = negativeWordList.map(word => ({
       text: word.text,
-      weight: word.weight - negativeMinimum
+      weight: word.weight - negativeMinimum,
+      handlers: word.handlers,
     }))
 
-    if (cloudExists) {
-      $('.sentiment-negative .wordcloud').jQCloud('update',
-          negativeMinimum <= 1
-          ? normalizedNegativeWordList
-          : negativeWordList)
-    } else {
-      $('.sentiment-negative .wordcloud').jQCloud(
-          negativeMinimum <= 1
-          ? normalizedNegativeWordList
-          : negativeWordList, { height: 300, delay: 100 })
-    }
-
+    $('.sentiment-negative .wordcloud')
+      .jQCloud('destroy')
+      .jQCloud(
+        negativeMinimum <= 1
+        ? normalizedNegativeWordList
+        : negativeWordList, { height: 250, delay: 100 }
+      )
 
     this.storage.get('positive_labels')
       .push(positiveWordList[0].text)

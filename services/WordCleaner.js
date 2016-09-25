@@ -2,6 +2,9 @@ class WordCleaner {
 
   static clean(word) {
     return word
+      // remove hyperlinks
+      .replace(/https?:.*\s/g, '')
+
       // remove tags
       .replace(/@[A-Za-z]+\s/g, '')
 

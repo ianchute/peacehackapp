@@ -42,4 +42,6 @@ window.CommonWords = [
   'sa',
   'are',
   'who',
+  'but',
+  'get'
 ]
