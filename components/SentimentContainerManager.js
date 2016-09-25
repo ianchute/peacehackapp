@@ -75,8 +75,8 @@ class SentimentContainerManager {
       })
     }
 
-    $('.sentiment-negative > h4 > span.percentage').text(negativePercentage + ` - ${negativePosts} Posts`)
-    $('.sentiment-positive > h4 > span.percentage').text(positivePercentage + ` - ${positivePosts} Posts`)
+    $('.sentiment-negative > h4 > span.percentage').text(negativePercentage) // + ` - ${negativePosts} Posts`)
+    $('.sentiment-positive > h4 > span.percentage').text(positivePercentage) // + ` - ${positivePosts} Posts`)
 
     this.store({
       positive: +positivePercentage.toString().replace('%', ''),

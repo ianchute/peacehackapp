@@ -58,11 +58,11 @@ class App {
 
     const UPDATE_INTERVAL = 20000
 
-    this.update('data/duterte/sample5.json')
+    this.update('data/duterte/sample3.json')
     setTimeout(() => {
-      this.update('data/duterte/sample1.json')
+      this.update('data/duterte/sample5.json')
       setTimeout(() => {
-        this.update('data/duterte/sample3.json')
+        this.update('data/duterte/sample1.json')
         setTimeout(() => {
           this.update('data/duterte/sample2.json')
           setTimeout(() => {
