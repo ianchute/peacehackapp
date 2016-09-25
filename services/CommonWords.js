@@ -47,4 +47,5 @@ window.CommonWords = [
   'down',
   'country',
   'president',
+  'xpeanutgalleryx',
 ]
