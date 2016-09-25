@@ -49,9 +49,20 @@ class WordCloudManager {
       weight: word.weight - positiveMinimum
     }))
 
-    $('.sentiment-positive .wordcloud')
-      .jQCloud('destroy')
-      .jQCloud(normalizedPositiveWordList, { height: 300 })
+    const cloudExists = $('.wordcloud').hasClass('jqcloud')
+
+    if (cloudExists) {
+      $('.sentiment-positive .wordcloud').jQCloud('update',
+        positiveMinimum <= 1
+          ? normalizedPositiveWordList
+          : positiveWordList)
+    } else {
+      $('.sentiment-positive .wordcloud').jQCloud(
+        positiveMinimum <= 1
+          ? normalizedPositiveWordList
+          : positiveWordList, { height: 300, delay: 100 })
+    }
+
 
     const negativeWordList = _.chain(this.storage.get('negative_words'))
       .filter(_.identity)
@@ -76,9 +87,24 @@ class WordCloudManager {
       weight: word.weight - negativeMinimum
     }))
 
-    $('.sentiment-negative .wordcloud')
-      .jQCloud('destroy')
-      .jQCloud(normalizedNegativeWordList, { height: 300 })
+    if (cloudExists) {
+      $('.sentiment-negative .wordcloud').jQCloud('update',
+          negativeMinimum <= 1
+          ? normalizedNegativeWordList
+          : negativeWordList)
+    } else {
+      $('.sentiment-negative .wordcloud').jQCloud(
+          negativeMinimum <= 1
+          ? normalizedNegativeWordList
+          : negativeWordList, { height: 300, delay: 100 })
+    }
+
+
+    this.storage.get('positive_labels')
+      .push(positiveWordList[0].text)
+
+    this.storage.get('negative_labels')
+      .push(negativeWordList[0].text)
 
   }
 

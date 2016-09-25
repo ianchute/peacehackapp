@@ -92,8 +92,10 @@ class SentimentContainerManager {
 
   store(o) {
 
-    const date = new Date()
-    this.storage.get('labels').push(`${this.pad(date.getHours())}:${this.pad(date.getMinutes())}:${this.pad(date.getSeconds())}`)
+    // const date = new Date()
+    // const dateString = `${this.pad(date.getHours())}:${this.pad(date.getMinutes())}:${this.pad(date.getSeconds())}`
+    // this.storage.get('labels').push(dateString)
+
     this.storage.get('values').push(o)
 
   }

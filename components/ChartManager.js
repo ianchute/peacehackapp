@@ -24,9 +24,9 @@ class ChartManager {
     this.$chartjsPositive = new Chart(ctxPositive, {
       type: 'line',
       data: {
-        labels: this.storage.get('labels'),
+        labels: this.storage.get('positive_labels'),
         datasets: [{
-          label: 'Positive sentiment over time',
+          label: 'Positive sentiments vs most prominent keyword',
           data: this.storage.get('values').map(value => value.positive),
           borderColor: 'green',
           borderWidth: 2,
@@ -39,9 +39,9 @@ class ChartManager {
     this.$chartjsNegative = new Chart(ctxNegative, {
       type: 'line',
       data: {
-        labels: this.storage.get('labels'),
+        labels: this.storage.get('negative_labels'),
         datasets: [{
-          label: 'Negative sentiment over time',
+          label: 'Negative sentiment vs most prominent keyword',
           data: this.storage.get('values').map(value => value.negative),
           borderColor: 'red',
           borderWidth: 2,
@@ -54,13 +54,13 @@ class ChartManager {
 
   update() {
 
-    this.$chartjsPositive.data.labels = this.storage.get('labels')
+    this.$chartjsPositive.data.labels = this.storage.get('positive_labels')
     this.$chartjsPositive.data.datasets[0].data = this.storage.get('values').map(value => value.positive)
     this.$chartjsPositive.scales["x-axis-0"].options.gridLines.color = 'rgba(255,255,255,0.1)'
     this.$chartjsPositive.scales["y-axis-0"].options.gridLines.color = 'rgba(255,255,255,0.1)'
     this.$chartjsPositive.update()
 
-    this.$chartjsNegative.data.labels = this.storage.get('labels')
+    this.$chartjsNegative.data.labels = this.storage.get('negative_labels')
     this.$chartjsNegative.data.datasets[0].data = this.storage.get('values').map(value => value.negative)
     this.$chartjsNegative.scales["x-axis-0"].options.gridLines.color = 'rgba(255,255,255,0.1)'
     this.$chartjsNegative.scales["y-axis-0"].options.gridLines.color = 'rgba(255,255,255,0.1)'
