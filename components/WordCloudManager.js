@@ -8,6 +8,9 @@ class WordCloudManager {
 
   update({ posts }, keyword) {
 
+    this.storage.clear('positive_words')
+    this.storage.clear('negative_words')
+
     posts.forEach(post => {
       if (post.sentiment === 'positive') {
 
