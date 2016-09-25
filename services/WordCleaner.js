@@ -14,8 +14,8 @@ class WordCleaner {
       // remove possessive case
       .replace(/\'s/g, '')
 
-      // only use alphanumeric
-      .replace(/[^0-9a-zA-Z_\s]/g, '')
+      // only letters
+      .replace(/[^a-zA-Z_\s]/g, '')
 
       // trim ends
       .trim()

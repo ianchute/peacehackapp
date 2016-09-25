@@ -43,5 +43,8 @@ window.CommonWords = [
   'are',
   'who',
   'but',
-  'get'
+  'get',
+  'down',
+  'country',
+  'president',
 ]

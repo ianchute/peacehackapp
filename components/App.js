@@ -23,7 +23,7 @@ class App {
         this.chartManager.update()
       })
     )
-    this.simulate()
+    setTimeout(() => this.simulate(), 3000)
     /////////////// END SIMULATION /////////////////////////////////////////////////////////////////////
 
     // $('.close').click(() => setTimeout(() => $('#related-tweets').empty(), 300))
@@ -56,19 +56,22 @@ class App {
 
   simulate() {
 
+    const UPDATE_INTERVAL = 20000
+
+    this.update('data/duterte/sample5.json')
     setTimeout(() => {
-      this.update('data/duterte/sample4.json')
+      this.update('data/duterte/sample1.json')
       setTimeout(() => {
-        this.update('data/duterte/sample1.json')
+        this.update('data/duterte/sample3.json')
         setTimeout(() => {
-          this.update('data/duterte/sample3.json')
+          this.update('data/duterte/sample2.json')
           setTimeout(() => {
-            this.update('data/duterte/sample2.json')
-            this.simulate()
-          }, 10000)
-        }, 10000)
-      }, 10000)
-    }, 10000)
+            this.update('data/duterte/sample4.json')
+            setTimeout(() => this.simulate(), UPDATE_INTERVAL)
+          }, UPDATE_INTERVAL)
+        }, UPDATE_INTERVAL)
+      }, UPDATE_INTERVAL)
+    }, UPDATE_INTERVAL)
 
   }
 
