@@ -40,7 +40,7 @@ class WordCloudManager {
         text: key,
         weight: +value,
         handlers: {
-          click: e => OverlayService.overlay(e.target.innerHTML)
+          click: e => OverlayService.overlay(e.target.innerHTML, 'green')
         }
       }))
       .sortBy('weight')
@@ -75,7 +75,7 @@ class WordCloudManager {
         text: key,
         weight: +value,
         handlers: {
-          click: e => OverlayService.overlay(e.target.innerHTML)
+          click: e => OverlayService.overlay(e.target.innerHTML, 'red')
         }
       }))
       .sortBy('weight')

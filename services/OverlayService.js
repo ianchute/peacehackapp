@@ -1,8 +1,9 @@
 class OverlayService {
 
-  static overlay(keyword) {
+  static overlay(keyword, color) {
 
     const $relatedTweets = $('#related-tweets').empty()
+    const keywordRegex = new RegExp(keyword, 'ig')
 
     $('.sentiment .post').each((i, elem) => {
 
@@ -12,6 +13,8 @@ class OverlayService {
       if (contains) {
         const $elem = $(elem).clone(true)
         $elem[0].id = Guid.create()
+        $elem[0].innerHTML = $elem[0].innerHTML.replace(keywordRegex, (match) =>
+          `<b style="color: ${color}; background: ${color === 'red' ? 'pink' : 'lightgreen'};">${match}</b>`)
         $relatedTweets.append($elem[0])
       }
 

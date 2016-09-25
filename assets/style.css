@@ -48,7 +48,7 @@ hr {
 .post {
   padding-left: 20px;
   padding-right: 20px;
-  text-overflow: ellipsis;
+  /*text-overflow: ellipsis;*/
   opacity: 0;
   cursor: pointer;
   border-radius: 10px;
@@ -73,6 +73,11 @@ hr {
   color: blue;
 }
 
+.searchword {
+  color: yellow;
+  border-radius: 10px;
+}
+
 .modal-dialog {
   width: 100%;
   height: 100%;
@@ -90,9 +95,9 @@ hr {
   text-align: center;
 }
 
-.modal * {
+/*.modal * {
   background: lightyellow !important;
-}
+}*/
 
 nav .input-group {
   margin-top: 12px;
