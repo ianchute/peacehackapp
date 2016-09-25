@@ -89,3 +89,11 @@ hr {
 .modal-title {
   text-align: center;
 }
+
+.modal * {
+  background: lightyellow !important;
+}
+
+nav input {
+  margin-top: 12px;
+}

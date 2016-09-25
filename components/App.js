@@ -2,6 +2,10 @@ class App {
 
   constructor() {
 
+    this.endpoint = 'https://api.social-searcher.com/v2/search?key=0a60e42415f429d286af23eec6b434c5&network=twitter&q='
+
+    this.currentKeyword = ''
+
     $.ajaxSetup({ cache: false })
 
     this.components = []
@@ -12,20 +16,25 @@ class App {
 
     this.update('data/blank.json')
 
-    setTimeout(() => this.simulate(), 1000) // Testing
-    // this.listen() // Production
-
-    $(document).on('sentiment.container.widthUpdate.done',
+    //////////////// SIMULATION ////////////////////////////////////////////////////////////////////////
+    $(document).off('sentiment.container.widthUpdate.done').on('sentiment.container.widthUpdate.done',
       (e, data) => setTimeout(() => {
         this.wordCloudManager.update(data, 'duterte')
         this.chartManager.update()
       })
     )
+    this.simulate()
+    /////////////// END SIMULATION /////////////////////////////////////////////////////////////////////
 
-    $('.close').click(() => setTimeout(() => $('#related-tweets').empty(), 300))
+    // $('.close').click(() => setTimeout(() => $('#related-tweets').empty(), 300))
+
+    // this.listen()
+
   }
 
   update(source) {
+
+    console.log(source)
 
     $.get(source, data => {
 
@@ -47,19 +56,57 @@ class App {
 
   simulate() {
 
-    setTimeout(() => this.update('data/duterte/sample4.json'), 10000)
-
-    setTimeout(() => this.update('data/duterte/sample1.json'), 20000)
-
-    setTimeout(() => this.update('data/duterte/sample3.json'), 30000)
-
-    setTimeout(() => this.update('data/duterte/sample2.json'), 40000)
-
-    setTimeout(() => { this.update('data/duterte/sample5.json'); this.simulate() }, 50000)
+    setTimeout(() => {
+      this.update('data/duterte/sample4.json')
+      setTimeout(() => {
+        this.update('data/duterte/sample1.json')
+        setTimeout(() => {
+          this.update('data/duterte/sample3.json')
+          setTimeout(() => {
+            this.update('data/duterte/sample2.json')
+            this.simulate()
+          }, 10000)
+        }, 10000)
+      }, 10000)
+    }, 10000)
 
   }
 
   listen() {
+
+    $(document).off('sentiment.container.widthUpdate.done').on('sentiment.container.widthUpdate.done',
+      (e, data) => setTimeout(() => {
+        this.wordCloudManager.update(data, $('#keyword').text())
+        this.chartManager.update()
+      })
+    )
+
+    $('#keyword').change(
+      _.throttle(e => {
+        this._listen()
+      }, 1000)
+    )
+
+  }
+
+  _listen() {
+
+    if (this.listener) {
+      clearTimeout(this.listener)
+    }
+
+    this.listener = setTimeout(() => {
+
+      const keyword = encodeURIComponent( $('#keyword').val().trim().toLocaleLowerCase() )
+
+      console.log(keyword, this.currentKeyword)
+
+      if (keyword && this.currentKeyword !== keyword) {
+        this.currentKeyword = keyword
+        this.update(this.endpoint + keyword)
+      }
+
+    }, 10000)
 
   }
 

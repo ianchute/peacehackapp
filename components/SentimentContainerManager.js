@@ -12,7 +12,7 @@ class SentimentContainerManager {
 
   update(data) {
 
-    const totalPosts = $('.post').length
+    const totalPosts = $('.sentiment > .post').length
 
     const negativePosts = $('.sentiment-negative > .post').length
     const positivePosts = $('.sentiment-positive > .post').length

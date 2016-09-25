@@ -33,7 +33,8 @@ div.jqcloud span {
 }
 
 div.jqcloud span:hover {
-  background-color: rgba(255, 255, 255, 0.5)
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
 }
 
 div.jqcloud { color: #09f; }
