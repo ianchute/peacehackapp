@@ -21,7 +21,7 @@ class TweetContainer {
     //   </iframe>`
     // )
 
-    const $elem = $(`<div id=${this.id} class="post">
+    const $elem = $(`<div id=${this.id} class="post" style="display:none">
       <img src="${image}" class="avatar"/>
       <b>${name}</b> - ${window.Languages[lang] || `Unknown(${lang})`}
       <br><br>
@@ -39,5 +39,5 @@ class TweetContainer {
   deleteComponent() {
     $(`#${this.id}`).fadeOut(() => $(`#${this.id}`).remove())
   }
-  
+
 }

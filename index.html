@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -36,12 +36,10 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
 
-          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <a class="navbar-brand" href="#"><img src="logo.ico" alt="" style="height: 30px; width: 30px;" /></a>
           </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li><a href="#">#peacehack | Realtime Social Media Sentiment Monitor</a></li>
@@ -59,30 +57,41 @@
           <canvas height="100" class="negative"></canvas>
         </div>
       </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="sentiment sentiment-positive">
+            <h4>
+              <span class="glyphicon glyphicon-thumbs-up"></span>
+              <span class="percentage"></span>
+            </h4>
+            <hr>
+            <div class="wordcloud"></div>
+          </div>
+
+          <div class="sentiment sentiment-negative">
+            <h4>
+              <span class="glyphicon glyphicon-thumbs-down"></span>
+              <span class="percentage"></span>
+            </h4>
+            <hr>
+            <div class="wordcloud"></div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
 
-    <br>
 
-    <div class="sentiment sentiment-positive">
-      <h4>
-        <span class="glyphicon glyphicon-thumbs-up"></span>
-        <span class="percentage"></span>
-      </h4>
-      <hr>
-      <div class="wordcloud"></div>
-    </div>
 
-    <div class="sentiment sentiment-negative">
-      <h4>
-        <span class="glyphicon glyphicon-thumbs-down"></span>
-        <span class="percentage"></span>
-      </h4>
-      <hr>
-      <div class="wordcloud"></div>
-    </div>
+
 
     <div class="sentiment sentiment-none">
-      <img src="assets/loader.gif" alt=""/>
+      <img src="assets/loader.gif" alt="Loading..."/>
       <h4>Waiting for new sentiments...</h4>
     </div>
 

@@ -14,6 +14,10 @@ class App {
 
     setTimeout(() => this.simulate(), 1000) // Testing
     // this.listen() // Production
+
+    $(document).on('sentiment.container.widthUpdate.done',
+      (e, data) => requestAnimationFrame(() => this.wordCloudManager.update(data, 'duterte'))
+    )
   }
 
   update(source) {
@@ -29,9 +33,8 @@ class App {
 
       this.components = tweets
 
-      this.sentimentContainerManager.update()
-      this.chartManager.update()
-      this.wordCloudManager.update(data, 'duterte')
+      requestAnimationFrame(() => this.sentimentContainerManager.update(data))
+      requestAnimationFrame(() => this.chartManager.update())
 
     })
 
@@ -39,15 +42,15 @@ class App {
 
   simulate() {
 
-    setTimeout(() => this.update('data/duterte/sample1.json'), 3000)
-
     setTimeout(() => this.update('data/duterte/sample2.json'), 6000)
 
-    setTimeout(() => this.update('data/duterte/sample3.json'), 9000)
+    setTimeout(() => this.update('data/duterte/sample1.json'), 12000)
 
-    setTimeout(() => this.update('data/duterte/sample4.json'), 12000)
+    setTimeout(() => this.update('data/duterte/sample3.json'), 18000)
 
-    setTimeout(() => { this.update('data/duterte/sample5.json'); this.simulate() }, 15000)
+    setTimeout(() => this.update('data/duterte/sample4.json'), 24000)
+
+    setTimeout(() => { this.update('data/duterte/sample5.json'); this.simulate() }, 30000)
 
   }
 

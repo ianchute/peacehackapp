@@ -10,12 +10,15 @@ class SentimentContainerManager {
 
   }
 
-  update() {
+  update(data) {
 
     const totalPosts = $('.post').length
 
     const negativePosts = $('.sentiment-negative > .post').length
     const positivePosts = $('.sentiment-positive > .post').length
+
+    const negativePercentageInternal = negativePosts ? (negativePosts / totalPosts * 100) + '%' : 0
+    const positivePercentageInternal = positivePosts ? (positivePosts / totalPosts * 100) + '%' : 0
 
     const negativePercentage = negativePosts ? (negativePosts / totalPosts * 100).toFixed(0) + '%' : 0
     const positivePercentage = positivePosts ? (positivePosts / totalPosts * 100).toFixed(0) + '%' : 0
@@ -25,13 +28,22 @@ class SentimentContainerManager {
         width: '0%',
         opacity: 0
       })
+
+      $('.wordcloud > *').animate({ opacity: 0 }, 800)
     }
 
     if (negativePercentage) {
       this.$negative.animate({
-        width: negativePercentage,
+        width: negativePercentageInternal,
         opacity: 1
-      }, 1000)
+      }, 800, () => {
+        if (window.otherPanelDone) {
+          window.otherPanelDone = false
+          $(document).trigger('sentiment.container.widthUpdate.done', [data])
+        } else {
+          window.otherPanelDone = true
+        }
+      })
     } else {
       this.$negative.animate({
         width: negativePercentage
@@ -40,9 +52,16 @@ class SentimentContainerManager {
 
     if (positivePercentage) {
       this.$positive.animate({
-        width: positivePercentage,
+        width: positivePercentageInternal,
         opacity: 1
-      }, 1000)
+      }, 800, () => {
+        if (window.otherPanelDone) {
+          window.otherPanelDone = false
+          $(document).trigger('sentiment.container.widthUpdate.done', [data])
+        } else {
+          window.otherPanelDone = true
+        }
+      })
     } else {
       this.$positive.animate({
         width: positivePercentage

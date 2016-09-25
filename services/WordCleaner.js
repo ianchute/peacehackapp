@@ -2,7 +2,8 @@ class WordCleaner {
 
   static clean(word) {
     return word
-      .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()@]/g,'')
+      .replace(/\'s/g, '')
+      .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()@\"\'|]/g,'')
       .trim()
       .toLocaleLowerCase()
   }

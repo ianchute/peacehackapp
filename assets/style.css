@@ -1,8 +1,9 @@
 body {
-  background: #fdc300;
+  background: lightyellow;
   font-family: Ubuntu;
   text-rendering: optimizeLegibility;
   --webkit-filter: brightness(1.1) contrast(1.1);
+  overflow: hidden;
 }
 
 .navbar {
@@ -13,7 +14,7 @@ body {
   height: 100%;
   float: left;
   padding: 10px;
-  background-clip: content-box;
+  /*background-clip: content-box;*/
   width: 0%;
   opacity: 0;
 }

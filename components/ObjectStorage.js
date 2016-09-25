@@ -16,4 +16,8 @@ class ObjectStorage {
 
   }
 
+  clear(key) {
+    this.data[key] = []
+  }
+
 }
